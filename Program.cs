@@ -27,8 +27,8 @@ for (int i = 0; i <= array.Length - 1; i++)
 
 string[] newArray = new string[LenNewArray];
 int idx = 0; 
-for (int i = 0; i <= array.Length - 1; i++)
 
+for (int i = 0; i <= array.Length - 1; i++)
 {
     if (array[i].Length <= 3)
     {   newArray[idx] = array[i];
@@ -38,6 +38,7 @@ for (int i = 0; i <= array.Length - 1; i++)
 
 PrintArray(array);
 Console.Write("→ ");
+PrintArray(newArray);
 
 // Фукция: Вывод команд для работы с программой
 void Commands()
